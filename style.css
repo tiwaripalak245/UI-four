@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+background-color: burlywood;
+color: white;
+position: fixed;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.box{
+    width: 800px;
+    height: 580px;
+    background-color: black;
+    margin-top: 40px;
+}
+
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.head ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.head ul li{
+    padding: 20px;
+}
+
+.hero-section{
+    width: 100%;
+    display: flex;
+    padding: 40px;
+}
+.img-part img{
+    width: 300px;
+    border-radius: 300px;
+    margin-left: 60px;
+}
+
+.text-part h1{
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.text-part h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.text-part p{
+    font-size: 15px;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+.text-part button{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(251, 109, 7);
+    border-radius: 30px;
+    border: none;
+    margin-top: 15px;
+    color: white;
+}
+
+.text-part a{
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.dish-box{
+    width: 700px;
+    height: 200px;
+    background-color: rgb(244, 199, 38);
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tab{
+    width: 100px;
+    height: 150px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;    
+
+}
+
+.tab p{
+    font-weight: 800;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.tab img{
+    width: 80px;
+    border-radius: 200px;
+}
+
+
+
